@@ -28,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <span className="text-4xl">Routes list:</span>
         {children}
       </body>
     </html>
